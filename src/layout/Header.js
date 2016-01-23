@@ -95,6 +95,28 @@ export default props => {
 			</header>
 		);		
 	}
+
+	if(props.isAbout) {
+		return (
+			<header style={styles.header}>
+				<nav style={styles.nav}>
+					<Link to={homePath}><img style={styles.img} src={strokePath} /></Link>
+					<Link to={homePath} style={styles.logoText}><h1>Hanzi Gold</h1></Link>
+					<Link style={
+						Object.assign(
+							{marginLeft: 'auto'},
+							styles.link, 
+							styles.learnMoreLink,
+							{background: '#fff', color: '#333', textShadow: 'none'}
+						)
+					} 
+					to="/about">About</Link>
+				</nav>
+			</header>
+		);
+	}
+
+
 	return (
 		<header style={styles.header}>
 			<nav style={styles.nav}>

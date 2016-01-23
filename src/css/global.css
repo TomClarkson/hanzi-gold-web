@@ -42,3 +42,36 @@ div, img {
 	border-radius: 4px;
 	background: yellow;
 }
+
+#about-page {
+	width: 80%;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.lead-header {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+#about-page p.lead {
+	font-weight: 400;
+	font-size: 22px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#about-page p {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.6;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#about-page p.preview-video {
+	margin-top: 20px;
+	font-weight: 500;
+}
